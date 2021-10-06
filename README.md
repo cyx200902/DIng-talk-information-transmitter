@@ -9,33 +9,35 @@
 
 #### 安装教程
 
-1.下载固件
+1.下载固件[esp8266-20210902-v1.17.bin](http://gitee.com/cyx200902/ding-talk-information-transmitter/blob/master/tools/esp8266-20210902-v1.17.bin)
 
 2.安装固件烧录库
 
     pip install esptool
 
-3.安装驱动
+3.安装驱动[CP210x_Universal_Windows_Driver.zip](https://gitee.com/cyx200902/ding-talk-information-transmitter/blob/master/tools/CP210x_Universal_Windows_Driver.zip)
 
 4.执行命令
 
     esptool.py --port COM10 --baud 460800 write_flash --flash_size=detect -fm dio 0 esp8266-20210902-v1.17.bin
 
-5.烧录boot.py
+5.使用micropython REPL连接开发板[MicroPython File Uploader.exe](http://gitee.com/cyx200902/ding-talk-information-transmitter/blob/master/tools/MicroPython%20File%20Uploader.exe)
 
-6.更改main.py中appkey，appsecret，chatid等配置信息
+6.烧录boot.py
 
-7.烧录main.py
+7.更改main.py中appkey，appsecret，chatid等配置信息
 
-8.打开micropython REPL
+8.烧录main.py
 
-9.REST主板
+9.打开micropython REPL
 
-10.根据提示输入WiFi名和密码
+10.REST主板
 
-11.等待wifi连接
+11.根据提示输入WiFi名和密码
 
-12.成功
+12.等待wifi连接
+
+13.成功
 
 
 #### 使用说明
