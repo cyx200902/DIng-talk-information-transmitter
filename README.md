@@ -9,19 +9,19 @@
 
 #### 安装教程
 
-1.下载固件[esp8266-20210902-v1.17.bin](http://gitee.com/cyx200902/ding-talk-information-transmitter/blob/master/tools/esp8266-20210902-v1.17.bin)
+1.下载固件[esp8266-20210902-v1.17.bin](http://github.com/cyx200902/ding-talk-information-transmitter/blob/master/tools/esp8266-20210902-v1.17.bin)
 
 2.安装固件烧录库
 
     pip install esptool
 
-3.安装驱动[CP210x_Universal_Windows_Driver.zip](https://gitee.com/cyx200902/ding-talk-information-transmitter/blob/master/tools/CP210x_Universal_Windows_Driver.zip)
+3.安装驱动[CP210x_Universal_Windows_Driver.zip](https://github.com/cyx200902/ding-talk-information-transmitter/blob/master/tools/CP210x_Universal_Windows_Driver.zip)
 
 4.执行命令
 
     esptool.py --port COM10 --baud 460800 write_flash --flash_size=detect -fm dio 0 esp8266-20210902-v1.17.bin
 
-5.使用micropython REPL连接开发板[MicroPython File Uploader.exe](http://gitee.com/cyx200902/ding-talk-information-transmitter/blob/master/tools/MicroPython%20File%20Uploader.exe)
+5.使用micropython REPL连接开发板[MicroPython File Uploader.exe](http://github.com/cyx200902/ding-talk-information-transmitter/blob/master/tools/MicroPython%20File%20Uploader.exe)
 
 6.烧录boot.py
 
