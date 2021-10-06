@@ -54,4 +54,5 @@
 
 1.  需要连接wifi
 2.  appkey，appsecret，chatid等信息需要在钉钉开发者后台注册企业内部应用获取[钉钉开放平台](http://open-dev.dingtalk.com/)
+3.  重置wifi信息在micropython REPL中输入`re_do_connect()`，按照步骤提示重置wifi信息
 
